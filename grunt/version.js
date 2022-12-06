@@ -15,7 +15,7 @@ module.exports = {
 	},
 	functions: {
 		options: {
-			prefix: "RAFT_VERSION', '",
+			prefix: "FORK_VERSION', '",
 		},
 		src: 'functions.php',
 	},
