@@ -59,7 +59,7 @@ class Block_Patterns {
 	 */
 	private function setup_properties() {
 		$categories = array(
-			'fork' => array( 'label' => __( 'Raft Patterns', 'fork' ) ),
+			'fork' => array( 'label' => __( 'Fork Patterns', 'fork' ) ),
 		);
 
 		$patterns = array();
