@@ -62,29 +62,7 @@ class Block_Patterns {
 			'fork' => array( 'label' => __( 'Raft Patterns', 'fork' ) ),
 		);
 
-		$patterns = array(
-			'cover-background',
-			'image-gallery',
-			'posts-query-loop',
-			'two-columns-features',
-			'three-columns-features',
-			'call-to-action',
-			'frequently-asked-questions',
-			'inverted-background',
-			'hero',
-
-			'alternating-feature-columns',
-			'call-to-action-2',
-			'content-columns-with-hero',
-			'hero-with-columns',
-			'horizontal-content-cards',
-			'inverted-gallery-with-title',
-			'posts-query-loop-2',
-			'pricing-plans',
-			'pricing-plans-inline-title',
-			'team',
-			'testimonial-columns',
-		);
+		$patterns = array();
 
 		$this->categories = apply_filters( 'fork_block_patterns_categories', $categories );
 		$this->patterns   = apply_filters( 'fork_block_patterns', $patterns );
