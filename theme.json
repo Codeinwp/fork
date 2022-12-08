@@ -317,7 +317,7 @@
           "radius": "5px"
         },
         "color": {
-          "background": "var(--wp--preset--color--ti-bg-alt)"
+          "background": "var(--wp--preset--color--ti-bg)"
         },
         "spacing": {
           "padding": {
