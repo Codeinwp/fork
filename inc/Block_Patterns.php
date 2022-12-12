@@ -74,6 +74,8 @@ class Block_Patterns {
 			'posts-section',
 			'service-cards-with-buttons',
 			'testimonials',
+			'front-page-hero',
+			'content-with-image-and-button',
 		);
 
 		$this->categories = apply_filters( 'fork_block_patterns_categories', $categories );

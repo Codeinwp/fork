@@ -22,8 +22,8 @@ $images = array(
 
 $feature_markup = '
 
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"32px","right":"32px","bottom":"32px","left":"32px"}}},"backgroundColor":"ti-accent","textColor":"ti-fg-alt"} -->
-<div class="wp-block-column has-ti-fg-alt-color has-ti-accent-background-color has-text-color has-background" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"32px","right":"32px","bottom":"32px","left":"32px"}}},"backgroundColor":"ti-bg-inv","textColor":"ti-fg-alt"} -->
+<div class="wp-block-column has-ti-fg-alt-color has-ti-bg-inv-background-color has-text-color has-background" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
 <!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-large"><img src="%s"/></figure>
 <!-- /wp:image -->
