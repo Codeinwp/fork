@@ -10,12 +10,18 @@
 
 ## Description ##
 Fork is a modern, minimalistic theme that is fully compatible with full-site-editing. This powerful theme offers a range of patterns that make it perfect for simple design is suitable for a wide range of purposes, including blogs, small businesses, startups, agencies, firms, e-commerce shops, personal portfolio sites, and more. It also comes with several style variations to suit your unique aesthetic.
-
 ## Copyright ##
 Fork WordPress theme, Copyright 2022 Themeisle
 Fork is distributed under the terms of the GNU GPLv2 or later
 
 ## Changelog ##
+
+####   Version 1.0.0 (2022-12-12)
+
+- Initial release
+
+
+
 
 
 ## Resources ##
