@@ -29,8 +29,8 @@ return array(
 <div class="wp-block-group alignwide">
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column {"style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"raft-bg"} -->
-<div class="wp-block-column has-raft-bg-background-color has-background">
+<!-- wp:column {"style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"ti-bg"} -->
+<div class="wp-block-column has-ti-bg-background-color has-background">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'img-fork-05.png' ) ) . '"/></figure>
 <!-- /wp:image -->
@@ -57,8 +57,8 @@ return array(
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"raft-bg"} -->
-<div class="wp-block-column has-raft-bg-background-color has-background">
+<!-- wp:column {"style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"ti-bg"} -->
+<div class="wp-block-column has-ti-bg-background-color has-background">
 <!-- wp:image {"id":63,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="' . esc_url( Assets_Manager::get_image_url( 'img-fork-04.png' ) ) . '"/></figure>
 <!-- /wp:image -->
