@@ -62,7 +62,19 @@ class Block_Patterns {
 			'fork' => array( 'label' => __( 'Fork Patterns', 'fork' ) ),
 		);
 
-		$patterns = array();
+		$patterns = array(
+			'boxed-pricing-plans',
+			'call-to-action-inverted',
+			'columns-with-icons',
+			'columns-with-icons-and-buttons',
+			'content-boxes-with-buttons',
+			'gallery-with-title',
+			'hero-cover-with-title-and-button',
+			'hero-with-feature-boxes',
+			'posts-section',
+			'service-cards-with-buttons',
+			'testimonials',
+		);
 
 		$this->categories = apply_filters( 'fork_block_patterns_categories', $categories );
 		$this->patterns   = apply_filters( 'fork_block_patterns', $patterns );
