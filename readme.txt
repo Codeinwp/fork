@@ -23,6 +23,13 @@ All images are licensed under CC0.
 
 Patterns resources:
 
+
+Themeisle Free Icons - https://themeisle.com/free-icons:
+* img-fork-01.svg
+* img-fork-02.svg
+* img-fork-03.svg
+
+
 * img-fork-04.png - https://negativespace.co/black-pencils-and-design-sign/
 * img-fork-05.png - https://negativespace.co/man-job-interview/
 * img-fork-06.png - https://negativespace.co/man-laptop-couch-sitting/
