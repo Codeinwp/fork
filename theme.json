@@ -242,9 +242,6 @@
       "link": {
         "color": {
           "text": "var(--wp--preset--color--ti-fg)"
-        },
-        "typography": {
-          "textDecoration": "none"
         }
       },
       "h1": {
@@ -329,6 +326,13 @@
         }
       },
       "core/comment-author-name": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--normal)"
         }
@@ -337,17 +341,32 @@
         "typography": {
           "textTransform": "uppercase",
           "fontSize": "14px"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/comment-edit-link": {
         "typography": {
           "textTransform": "uppercase",
           "fontSize": "14px"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       },
       "core/comment-reply-link": {
         "typography": {
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "textDecoration": "none"
         },
         "elements": {
           "link": {
@@ -356,6 +375,33 @@
             },
             "color": {
               "text": "var(--wp--preset--color--ti-accent)"
+            }
+          }
+        }
+      },
+      "core/navigation": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-excerpt": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
             }
           }
         }
