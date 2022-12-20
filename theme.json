@@ -397,6 +397,15 @@
           }
         }
       },
+      "core/post-terms": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
       "core/post-excerpt": {
         "elements": {
           "link": {
