@@ -16,6 +16,7 @@ namespace Fork;
  */
 class Constants {
 	const CACHE_KEYS = array(
-		'dismissed-welcome-notice' => 'fork-welcome-notice-dismissed',
+		'dismissed-welcome-notice'         => 'fork-welcome-notice-dismissed',
+		'dismissed-fse-design-pack-notice' => 'fork-design-pack-dismissed',
 	);
 }
