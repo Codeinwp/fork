@@ -16,9 +16,10 @@ namespace Fork;
  */
 class Assets_Manager {
 	const ASSETS_SLUGS = array(
-		'frontend-css'   => 'fork-style',
-		'editor-css'     => 'fork-editor',
-		'welcome-notice' => 'fork-welcome-notice',
+		'frontend-css'       => 'fork-style',
+		'editor-css'         => 'fork-editor',
+		'welcome-notice'     => 'fork-welcome-notice',
+		'design-pack-notice' => 'fork-design-pack-notice',
 	);
 
 	/**
