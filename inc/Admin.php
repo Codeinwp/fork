@@ -73,8 +73,6 @@ class Admin {
 			),
 			'designPackNoticeData'
 		);
-
-		echo '<div id="fork-design-pack-notice"></div>';
 	}
 
 	/**
