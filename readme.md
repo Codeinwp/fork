@@ -16,6 +16,13 @@ Fork is distributed under the terms of the GNU GPLv2 or later
 
 ## Changelog ##
 
+##### [Version 1.0.11](https://github.com/Codeinwp/fork/compare/v1.0.10...v1.0.11) (2025-04-17)
+
+- Update depdencies
+
+
+
+
 ##### [Version 1.0.10](https://github.com/Codeinwp/fork/compare/v1.0.9...v1.0.10) (2025-04-17)
 
 - Updated dependencies
