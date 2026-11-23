@@ -39,6 +39,7 @@ class Admin {
 		add_action( 'wp_ajax_fork_dismiss_design_pack_notice', array( $this, 'remove_design_pack_notice' ) );
 		add_filter( 'themeisle_sdk_blackfriday_data', array( $this, 'add_black_friday_data' ) );
 		add_filter( 'fork_ai_connect_metadata', array( $this, 'get_ai_connect_metadata' ) );
+		add_filter( 'fork_support_hub_metadata', array( $this, 'get_support_hub_metadata' ) );
 	}
 
 	/**
@@ -385,6 +386,31 @@ class Admin {
 				__( 'Show me Fork\'s style variations and apply the one with the warmest palette.', 'fork' ),
 				__( 'Make my header sticky with the menu centered under the logo.', 'fork' ),
 				__( 'Add a hero pattern with a big heading and a button to the top of my home page.', 'fork' ),
+			),
+		);
+	}
+
+	/**
+	 * Metadata for the Themeisle SDK Support Hub: the footer links shown in the Help form.
+	 *
+	 * Fork is a free theme with no Pro tier, so is_pro is always false.
+	 *
+	 * @return array{is_pro: bool, links: array<int, array{icon: string, text: string, url: string}>}
+	 */
+	public function get_support_hub_metadata() {
+		return array(
+			'is_pro' => false,
+			'links'  => array(
+				array(
+					'icon' => 'book-alt',
+					'text' => __( 'Documentation', 'fork' ),
+					'url'  => 'https://docs.themeisle.com/fse-themes/fork-fse-theme',
+				),
+				array(
+					'icon' => 'groups',
+					'text' => __( 'Community Forum', 'fork' ),
+					'url'  => 'https://wordpress.org/support/theme/fork/',
+				),
 			),
 		);
 	}
